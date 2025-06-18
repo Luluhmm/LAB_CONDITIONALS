@@ -29,7 +29,7 @@ print (len(name))
 
 if len(name) > 2 :
    print("the name is valid, now lets check the email")
-   if "@gmail.com" in email and email.index("@gmail.com") > 0 and "@" in email == 1 :
+   if "@gmail.com" in email and email.index("@gmail.com") > 0 and email.count("@") == 1 :
        print("valid gmail")
        print("Welcome",name,"you registered with the",email,"!")
    else:
